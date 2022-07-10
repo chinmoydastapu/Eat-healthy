@@ -96,7 +96,7 @@ body{
     border-radius: 20px;
     padding: 2%;
     margin: 1%;
-    box-shadow: 3px 5px 15px gray;
+    box-shadow: 3px 5px 15px silver;
 }
 .food-card h2{
     font-size: 30px;
@@ -118,4 +118,31 @@ body{
 #img-3{
     background-image: url(images/food-3.png);
     background-size: cover;
+}
+
+/* Followers section */
+#followers-container{
+    width: 80%;
+    margin: 5% auto;
+    padding: 3% 2%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px silver;
+}
+.followers-count{
+    width: 20%;
+    padding: 2%;
+    text-align: center;
+}
+.number{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.platform{
+    margin: 0;
+    padding: 0;
 }
