@@ -1,18 +1,21 @@
 /* For several purposes */
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.primary-text{
+
+.primary-text {
     color: rgb(116, 114, 114);
     font-size: 20px;
 }
-.primary-header{
+
+.primary-header {
     color: rgb(105, 104, 104);
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.button{
+
+.button {
     display: block;
     width: 120px;
     color: white;
@@ -27,7 +30,7 @@ body{
 }
 
 /* top-header section */
-#top-header{
+#top-header {
     width: 95%;
     height: 600px;
     display: flex;
@@ -36,25 +39,29 @@ body{
     margin: auto;
     padding: 1%;
 }
-.top-banner{
+
+.top-banner {
     width: 46%;
     padding: 1%;
 }
-.top-banner h1{
+
+.top-banner h1 {
     font-size: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(133, 121, 121);
 }
-.top-banner span{
+
+.top-banner span {
     color: rgb(255, 166, 0);
 }
-.top-banner img{
+
+.top-banner img {
     width: 100%;
     height: 100%;
 }
 
 /* About me section  */
-#about-section-parent{
+#about-section-parent {
     margin-top: 8%;
     height: 500px;
     display: flex;
@@ -64,64 +71,74 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
 }
-.about-section-child{
+
+.about-section-child {
     width: 35%;
     height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.img-bg{
+
+.img-bg {
     width: 100%;
     height: 100%;
 }
-.img{
+
+.img {
     background-image: url(images/abt-me.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
 
 /* My recipies section */
-#my-recipies-title{
+#my-recipies-title {
     width: 50%;
     margin: 50px auto;
     text-align: center;
 }
-#food-card-container{
+
+#food-card-container {
     display: flex;
     justify-content: center;
 }
-.food-card{
+
+.food-card {
     width: 25%;
     border-radius: 20px;
     padding: 2%;
     margin: 1%;
     box-shadow: 3px 5px 15px silver;
 }
-.food-card h2{
+
+.food-card h2 {
     font-size: 30px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.food-img{
+
+.food-img {
     border-radius: 20px;
     height: 230px;
     margin: auto;
 }
-#img-1{
+
+#img-1 {
     background-image: url(images/food-1.jpg);
     background-size: cover;
 }
-#img-2{
+
+#img-2 {
     background-image: url(images/food-2.png);
     background-size: contain;
 }
-#img-3{
+
+#img-3 {
     background-image: url(images/food-3.png);
     background-size: cover;
 }
 
 /* Followers section */
-#followers-container{
+#followers-container {
     width: 80%;
     margin: 5% auto;
     padding: 3% 2%;
@@ -130,19 +147,45 @@ body{
     border-radius: 15px;
     box-shadow: 5px 5px 15px silver;
 }
-.followers-count{
+
+.followers-count {
     width: 20%;
     padding: 2%;
     text-align: center;
 }
-.number{
+
+.number {
     margin: 0;
     padding: 0;
     font-size: 40px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
 }
-.platform{
+
+.platform {
     margin: 0;
     padding: 0;
+}
+
+/* Footer part  */
+footer {
+    color: whitesmoke;
+    font-size: small;
+    text-align: center;
+    background-color: black;
+    height: 200px;
+    padding: 15px;
+}
+
+#footer-title {
+    font-size: 30px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+}
+
+#gradient-text {
+    background: linear-gradient(to right, rgb(255, 189, 65), orange);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
 }
