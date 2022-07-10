@@ -61,34 +61,26 @@ body {
 }
 
 /* About me section  */
-#about-section-parent {
-    margin-top: 8%;
+#about-me-container{
+    background-image: url(images/abt-me-bg.jpg);
+    background-size: cover;
+    margin: 5% 0;
+    padding-top: 50px;
     height: 500px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    background-image: url(images/abt-me-bg.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
-
-.about-section-child {
-    width: 35%;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.about-me-content{
+    width: 40%;
 }
-
-.img-bg {
-    width: 100%;
-    height: 100%;
-}
-
-.img {
+#img-part{
     background-image: url(images/abt-me.png);
     background-size: contain;
     background-repeat: no-repeat;
+}
+#text-part{
+    display: flex;
+    align-items: center;
 }
 
 /* My recipies section */
