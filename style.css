@@ -2,17 +2,17 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .primary-text {
     color: rgb(116, 114, 114);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .primary-header {
     color: rgb(105, 104, 104);
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .button {
@@ -113,7 +113,6 @@ body {
 
 .food-card h2 {
     font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .food-img {
@@ -158,7 +157,6 @@ body {
     margin: 0;
     padding: 0;
     font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
 }
 
@@ -179,8 +177,7 @@ footer {
 
 #footer-title {
     font-size: 30px;
-    font-weight: 550;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
     color: gray;
 }
 
